@@ -12,11 +12,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
-    List<ItemModel> allItems;
+   // List<ItemModel> allItems;
     FloatingActionButton fab;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,14 +53,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        ItemModel im = new ItemModel(001,"Coca Cola", 300, "10.7.2018. 28:56");
+      /*  ItemModel im = new ItemModel(001,"Coca Cola", 300, "10.7.2018. 28:56");
         ItemModel im1 = new ItemModel(002,"Viski", 23, "10.7.2018. 28:56");
         ItemModel im2 = new ItemModel(003,"Vino", 444, "10.7.2018. 28:56");
         ItemModel im3 = new ItemModel(004,"Fanta", 234, "10.7.2018. 28:56");
         ItemModel im4 = new ItemModel(005,"Sprite", 54, "10.7.2018. 28:56");
         ItemModel im5 = new ItemModel(006,"Mirinda", 56, "10.7.2018. 28:56");
 
-   /*     ima.add(im);
+       ima.add(im);
         ima.add(im1);
         ima.add(im2);
         ima.add(im3);
